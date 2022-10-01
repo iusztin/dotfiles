@@ -16,4 +16,4 @@ vicmd_symbol = "[❮](green)"
 
 [git_branch]
 format = "[$branch]($style) "
-style = "bright-black"
+style = "purple"
