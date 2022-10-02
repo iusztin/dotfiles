@@ -1,4 +1,4 @@
-# iusztin-dotfiles
+# dotfiles
 
 My personal dotfiles
 
