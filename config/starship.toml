@@ -1,6 +1,7 @@
 format = """
 $directory\
 $git_branch\
+$git_commit\
 $character\
 """
 
@@ -8,4 +9,8 @@ add_newline = false
 
 [git_branch]
 format = "[$branch]($style) "
+style = "purple"
+
+[git_commit]
+format = "[$hash$tag]($style) "
 style = "purple"
