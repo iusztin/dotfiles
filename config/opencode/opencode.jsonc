@@ -29,24 +29,20 @@
       "textVerbosity": "medium",
     },
 
-    "general": {
-      "mode": "subagent",
-      // opencode-go/kimi-k2.6: better
-      // opencode-go/qwen3.6-plus: recommended by ChatGPT for prompt generation
-      // opencode-go/deepseek-v4-pro: cost efficient
-      "model": "opencode-go/kimi-k2.6",
-    },
+    // `general`: Use parent subagent. Used mostly for splitting work. Not just research.
 
     "explore": {
       "mode": "subagent",
-      "model": "opencode-go/deepseek-v4-flash",
+      // opencode-go/mimo-v2.5-pro: lowest hallucination rate, 1M context
+      // opencode-go/minimax-m2.7: good hallucination rate, very cheap
+      // opencode-go/deepseek-v4-flash: cheapest, but high hallucination rate
+      // openai/gpt-5.4-mini: only suitable alternative for OpenAI
+      "model": "opencode-go/minimax-m2.7",
     },
 
     "scout": {
       "mode": "subagent",
-      // opencode-go/kimi-k2.6: better
-      // opencode-go/deepseek-v4-pro: cost efficient
-      "model": "opencode-go/deepseek-v4-pro",
+      "model": "opencode-go/mimo-v2.5-pro",
     },
 
     "compaction": {
