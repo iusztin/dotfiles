@@ -16,7 +16,7 @@
       "reasoningEffort": "medium",
       // "medium": quality
       // "low": cost efficient
-      "textVerbosity": "low",
+      // "textVerbosity": "low",
     },
 
     "plan": {
@@ -26,7 +26,7 @@
       "reasoningEffort": "high",
       // "high": quality
       // "medium": cost efficient
-      "textVerbosity": "medium",
+      // "textVerbosity": "medium",
     },
 
     // `general`: Use parent subagent. Used mostly for splitting work. Not just research.
